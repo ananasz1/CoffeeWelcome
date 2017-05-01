@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="contact_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_margin">@dimen/small_text_margin</item>
+        <item name="android:textColor">@color/letters</item>
+    </style>
+
+    <style name="icons">
+        <item name="android:layout_height">@dimen/icon_height</item>
+        <item name="android:layout_width">@dimen/icon_width</item>
+        <item name="android:layout_margin">@dimen/icon_margin</item>
+    </style>
+
+    <style name="social">
+        <item name="android:layout_height">@dimen/social_height</item>
+        <item name="android:layout_width">@dimen/social_width</item>
+        <item name="android:layout_marginBottom">@dimen/social_margin</item>
+    </style>
+
+</resources>

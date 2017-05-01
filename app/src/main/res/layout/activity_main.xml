@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#795548"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.vikischmideg.coffeewelcome.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:id="@+id/cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="cursive"
+            android:text="*COFFEE BEAN*"
+            android:textColor="#FFF9C4"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:fontFamily="cursive"
+            android:text="~the place where you want to be~"
+            android:textColor="#FFF9C4"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kave"
+        android:layout_marginTop="41dp"
+        android:layout_alignTop="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#96795548">
+
+        <ImageView
+            android:id="@+id/map"
+            style="@style/icons"
+            android:src="@drawable/map" />
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/contact_text"
+            android:layout_toRightOf="@id/map"
+            android:text="@string/address" />
+
+        <ImageView
+            android:id="@+id/mail"
+            style="@style/icons"
+            android:layout_below="@id/map"
+            android:src="@drawable/mail" />
+
+        <TextView
+            android:id="@+id/email"
+            style="@style/contact_text"
+            android:layout_below="@id/address"
+            android:layout_toRightOf="@id/mail"
+            android:text="@string/email" />
+
+        <ImageView
+            android:id="@+id/call"
+            style="@style/icons"
+            android:layout_below="@id/mail"
+            android:src="@drawable/call" />
+
+        <TextView
+            android:id="@+id/number"
+            style="@style/contact_text"
+            android:layout_below="@id/email"
+            android:layout_toRightOf="@id/call"
+            android:text="@string/phone" />
+
+
+        <ImageView
+            android:id="@+id/hour"
+            style="@style/icons"
+            android:layout_below="@id/call"
+            android:src="@drawable/hour" />
+
+        <TextView
+            android:id="@+id/daily"
+            style="@style/contact_text"
+            android:layout_below="@id/number"
+            android:layout_toRightOf="@id/hour"
+            android:text="@string/open" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/social"
+            android:src="@drawable/fb"
+            />
+
+        <ImageView
+            style="@style/social"
+            android:src="@drawable/twy" />
+
+        <ImageView
+            style="@style/social"
+            android:src="@drawable/gpls" />
+
+    </LinearLayout>
+
+</RelativeLayout>

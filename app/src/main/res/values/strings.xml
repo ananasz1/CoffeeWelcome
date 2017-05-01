@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Coffee Welcome</string>
+    <string name="address">1234 Budapest, Coffee str. 1.</string>
+    <string name="email">coffee@bestplace.com</string>
+    <string name="phone">+36 1 234-5678</string>
+    <string name="open">You are always welcome!</string>
+    <string name="description">freshly roasted coffee, warm welcome</string>
+</resources>
